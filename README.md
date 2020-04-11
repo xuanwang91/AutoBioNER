@@ -49,3 +49,16 @@ Two expanded dictionaries:
 After the **Dictionary Expansion** step, take the tokenized raw corpus (DictExpan/data/bc5/input_text.txt), expanded core dictionary (DictExpan/data/bc5/dict_core_expand.txt) and expanded full dictionary (DictExpan/data/bc5/dict_full_expand.txt) as the input to **AutoNER**.
 
 The details of the **Neural Model Training** can be found in the [AutoNER](https://github.com/shangjingbo1226/AutoNER) repository.
+
+## Citation
+If you find the implementation useful, please cite the following paper:
+```
+@inproceedings{wang2019distantly,
+  title={Distantly supervised biomedical named entity recognition with dictionary expansion},
+  author={Wang, Xuan and Zhang, Yu and Li, Qi and Ren, Xiang and Shang, Jingbo and Han, Jiawei},
+  booktitle={2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={496--503},
+  year={2019},
+  organization={IEEE}
+}
+```
