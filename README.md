@@ -20,7 +20,7 @@ The whole framework consists of two parts: **Dictionary Expansion** and
 
 ## Dictionary Expansion
 ```
-cd DictExpan
+cd DictExpan/
 ```
 
 ### Start Stanford CoreNLP
@@ -34,6 +34,8 @@ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
 ```
 # Need to change the corpus (data, RAW_TEXT, DICT_CORE, DICT_FULL) name in run.sh
 # Need to change the corpus (data) name in src/corpusProcessing/corpusProcess.sh
+# Need to change the corpus (data) name in src/dataProcessing/dataProcess.sh
+# Need to change the corpus (data) name in src/SetExpan/set_expan_main.py
 ./run.sh
 ```
 
